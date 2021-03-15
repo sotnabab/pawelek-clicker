@@ -1,0 +1,93 @@
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawełek Clicker</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body class="page">
+
+    <div class="mouse" onselectstart="return false" onselect="return false" oncopy="return false">
+        +<span class="mouse__points" onselectstart="return false" onselect="return false" oncopy="return false"></span>
+    </div>
+
+    <header class="header">
+
+        <div class="header__logo">
+            <div class="header__icon"><i class="fas fa-torii-gate fa-4x"></i></div>
+            <span class="header__name">Wisdom<br>Pawel</span>
+        </div>
+
+        <section class="shop">
+            <h1 class="shop__header">Sklep <br>z ulepszeniami</h1>
+            <ul class="shop__list">
+                <li class="shop__item">
+                    <div>Pawełki X2</div>
+                    <div class="shop__link">
+                        200
+                        <i class="fa fa-usd game__icon" aria-hidden="true"></i>
+                    </div>
+                </li>
+                <li class="shop__item">
+                    <div>Pieczarki X2</div>
+                    <div class="shop__link">
+                        800
+                        <i class="fa fa-money game__icon" aria-hidden="true"></i>
+                    </div>
+                </li>
+                <li class="shop__item">
+                    <div>Dzwieki</div>
+                    <div class="shop__link">
+                        1200
+                        <i class="fa fa-usd game__icon" aria-hidden="true"></i>
+                    </div>
+                </li>
+                <li class="shop__item">
+                    <div>Horny Pawelek</div>
+                    <div class="shop__link">
+                        2400
+                        <i class="fa fa-money game__icon" aria-hidden="true"></i>
+                    </div>
+                </li>
+                <li class="shop__item">
+                    <div>Customowy Motyw</div>
+                    <div class="shop__link">
+                        4000
+                        <i class="fa fa-usd game__icon" aria-hidden="true"></i>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+    </header>
+
+    <main>
+        <section class="game">
+            <div class="game__counter">
+                <i class="fas fa-money-bill-wave game__icon"></i>
+                Pawelki:
+                <span class="game__pawelki">0</span>
+            </div>
+            <div class="game__logo"></div>
+            <div class="game__counter">
+                <i class="fas fa-dollar-sign game__icon"></i>
+                Pieczarki:
+                <span class="game__pieczarki">0</span>
+            </div>
+            <figure class="game__window" ondragstart="return false">
+                <img src="img/wisdomPawel.png" class="game__img">
+                <figcaption class="game__description">Kliknij, aby zdobyć punkty</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

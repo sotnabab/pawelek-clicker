@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("patern.png");
+    color: white;
+    font-family: "RockNRoll One", sans-serif;
+    text-shadow: 1px 1px 20px black;
+    font-size: 18px;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px;
+}
+
+.mouse{
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}

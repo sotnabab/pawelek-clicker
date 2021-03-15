@@ -1,0 +1,48 @@
+/*<main>
+    <section class="game">
+        <div class="game__pawelki">0</div>
+        <div class="game__logo"></div>
+        <div class="game__pieczarki">0</div>
+        <figure class="game__window">
+            <img src="" class="game__img">
+            <figcaption class="game__description">Kliknij, aby zdobyć punkty</figcaption>
+        </figure>
+    </section>
+</main>
+*/
+
+.game{
+    width: 1000px;
+    display: flex;
+    padding: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    &__counter{
+        font-size: 1.4rem;
+        height: 60px;
+        padding: 10px 80px;
+    }
+    &__icon{
+        color: green;
+    }
+    &__logo{
+        flex-grow: 1;
+        height: 60px;
+    }
+    &__window{
+        margin-top: 30px;
+        width: auto;
+    }
+    &__img{
+        height: 600px;
+        width: 800px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    &__description{
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 20px 0;
+    }
+}
